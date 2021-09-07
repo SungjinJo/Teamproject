@@ -3870,3 +3870,7 @@ select {
   border-color: rgb(64, 64, 184);
   color: #ffffff;
 }
+
+#mypage_btn {
+  margin-right: 0px;
+}
