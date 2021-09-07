@@ -3854,4 +3854,19 @@ select {
   height: 44px;
   color: #7f888f;
 }
+/* -------------------- 09/07 ---------------- */
 
+.mailslc {
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.mail_btn {
+  width: 140px;
+  height: 44px;
+  margin-left: 370px;
+  margin-top: 5px;
+  background-color: rgb(20, 50, 120, 0.8);
+  border-color: rgb(64, 64, 184);
+  color: #ffffff;
+}
