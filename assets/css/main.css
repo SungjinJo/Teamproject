@@ -3873,6 +3873,14 @@ select {
 
 #mypage_btn {
   margin-right: 0px;
+  background-color: rgb(20, 50, 120, 0.8);
+  border-color: rgb(64, 64, 184);
+  color: #ffffff;
+  height: 44px;
+}
+
+#mypage_btn:hover {
+  background-color: rgba(85, 136, 255, 0.8);
 }
 
 .mypagebox {
@@ -3880,4 +3888,16 @@ select {
 }
 #mypage_unregister {
   margin-left: 0px;
+}
+
+#delete_btn {
+  height: 44px;
+  margin-left: 10px;
+  background-color: rgb(20, 50, 120, 0.8);
+  border-color: rgb(64, 64, 184);
+  color: #ffffff;
+}
+
+#delete_btn:hover {
+  background-color: rgba(85, 136, 255, 0.8);
 }
