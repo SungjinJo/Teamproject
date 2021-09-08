@@ -3874,3 +3874,10 @@ select {
 #mypage_btn {
   margin-right: 0px;
 }
+
+.mypagebox {
+  border-bottom: 2px solid #ededed;
+}
+#mypage_unregister {
+  margin-left: 0px;
+}

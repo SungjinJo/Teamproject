@@ -118,7 +118,7 @@
                             <br>
 
                         </div>
-                        <div>
+                        <div class="mypagebox">
                             <form id="myForm" action="../member/update_mypage.do" method="post">
                                 <p>
                                     <label>ID</label> 
@@ -140,7 +140,9 @@
                                     <button type="submit" class="w3-button w3-block w3-black w3-ripple w3-margin-top w3-round">회원정보 변경</button>
                                 </p>
                             </form>
+						</div>
                             <br />
+						<div class="mypagebox">
                             <form id="pwForm" action="../member/update_pw.do" method="post">	
                                 <input type="hidden" name="id" value="${ member.id }">
                                 <p>
@@ -160,6 +162,10 @@
                                 </p>
                             </form>
                         </div>
+						<br>
+						<p class="w3-center" id="mypage_btn">
+							<button type="submit" id="joinBtn" class="w3-button w3-block w3-black w3-ripple w3-margin-top w3-round">회원 탈퇴</button>
+						</p>
                     </div>
                 </div>
 
