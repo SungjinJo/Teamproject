@@ -1,13 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>잡담드림</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
+
 <body>
-    
-    
+
+
+    <!-- Header -->
+    <header id="header_login">
+
+        <a href="index.html" class="logo"><img src="./images/Logo.png"></a>
+
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-7 col-xs-10 idpwSearch-form">
+
+                    <form action="#">
+                        <div>
+                            <input type="radio" id="r_pn2" class="input_rd" name="certification" value="email"
+                                onclick="selectType('email');clickcr(this,'idf.email','','',event);">
+                                <label for="r_pn2" class="label_rd">본인확인 이메일로 인증</label>
+                            <div class="form-group">
+                                <label for="name">이름</label>
+                                <input type="text" class="form-control" id="name" placeholder="이름">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">이메일</label>
+                                <input type="text" class="form-control" id="email" placeholder="등록된 이메일주소">
+                                <br>
+                                <div class="input-group-addon">
+                                    <button class="idpw-btn">인증번호 전송</button>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="Number">인증번호</label>
+                                <input type="text" class="form-control" id="Number" placeholder="인증번호">
+                            </div>
+
+                            <div class="input-group-addon">
+                                <button class="idpw-btn">인증하기</button>
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer_login">
+            <p class="copyright" id="login_footer">&copy; Untitled. All rights reserved. Demo Images:
+                <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5UP</a>.
+            </p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
